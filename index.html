@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src = "js.js";></script>
+    </head>
+    <body>
+        <p>Inserire le 3 cifre che creano la chiave iniziale</p>
+        <input type="number" id="firstKey">
+        <input type="number" id="secondKey">
+        <input type="number" id="thirdKey">
+        <input type="button" id="confirm" value="Confirm" onclick="controlFirstKey()">
+        <p>chiave del carattere</p>
+        <input type="number" id="first">
+        <input type="number" id="second">
+        <input type="number" id="third">
+        <p>Inserire il testo da criptare</p>
+        <input type="text" id="string" style="width: 100%" onkeyup="shift()">
+        <p>testo criptato:</p>
+        <input type="text" id="result" style="width: 100%" disabled>
+    </body>
+</html>
